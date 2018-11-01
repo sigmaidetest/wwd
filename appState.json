@@ -1,0 +1,71 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "8bab56de-2106-4a67-ae5b-0d5a837315c0": {
+        "id": "8bab56de-2106-4a67-ae5b-0d5a837315c0",
+        "parent": null,
+        "name": "wwd",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "310c81c9-6b2d-4974-bf7d-240a9b916627"
+        ],
+        "isRemovable": false,
+        "filePath": "wwd"
+      },
+      "310c81c9-6b2d-4974-bf7d-240a9b916627": {
+        "id": "310c81c9-6b2d-4974-bf7d-240a9b916627",
+        "parent": "8bab56de-2106-4a67-ae5b-0d5a837315c0",
+        "name": "lambda.js",
+        "type": "LAMBDA_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "wwd/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "triggers": [],
+        "config": {
+          "runtime": "nodejs8.10",
+          "timeout": 60,
+          "memory": 128
+        }
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "8bab56de-2106-4a67-ae5b-0d5a837315c0",
+    "openFiles": [
+      "310c81c9-6b2d-4974-bf7d-240a9b916627"
+    ],
+    "currentFileId": "310c81c9-6b2d-4974-bf7d-240a9b916627",
+    "resources": {},
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    },
+    "lambdaId": "310c81c9-6b2d-4974-bf7d-240a9b916627"
+  },
+  "PROJECT_META": {
+    "projectName": "wwd",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "lastSave": 1541047688794
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "wwd",
+      "url": "https://github.com/sigmaidetest/wwd"
+    }
+  }
+}
